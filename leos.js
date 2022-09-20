@@ -10,3 +10,7 @@
 // }
 
 // ni behöver 2 inmatningar och sedan en uträkning och en utskrift
+const a = parseInt(prompt('Hur stor är katet A'));
+const b = parseInt(prompt('Hur stor är katet B'));
+const c = Math.sqrt(a*a + b*b);
+window.alert("Hypotenusan är " + c);
